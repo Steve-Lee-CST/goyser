@@ -11,10 +11,10 @@ import (
 	"sync"
 	"unsafe"
 
+	grpc_wee "github.com/Steve-Lee-CST/goyser/grpc"
+	yellowstone_geyser_pb "github.com/Steve-Lee-CST/goyser/yellowstone_geyser/pb"
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/rpc"
-	grpc_wee "github.com/weeaa/goyser/grpc"
-	yellowstone_geyser_pb "github.com/weeaa/goyser/yellowstone_geyser/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )
